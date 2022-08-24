@@ -3,7 +3,7 @@
 :root{
     --base-color:#501d86;
     --accent-color: #6b4ebb;
-    --background: #c0c1ef;
+    --background: #c9caf8;
 
     --base-font: Verdana, Geneva, Tahoma, sans-serif;
     --accent-font: 'Alumni Sans Pinstripe', sans-serif;
@@ -73,4 +73,7 @@ a:hover{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1em;
+}
+p.solid{
+    border-style: solid;
 }
