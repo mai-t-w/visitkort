@@ -3,11 +3,13 @@
 :root{
     --base-color:#501d86;
     --accent-color: #6b4ebb;
+    --background: #c0c1ef;
 
     --base-font: Verdana, Geneva, Tahoma, sans-serif;
     --accent-font: 'Alumni Sans Pinstripe', sans-serif;
     
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -17,8 +19,10 @@
 
 body{
     font-family: var(--base-font);
-    color: var(--base-color)
+    color: var(--base-color);
 
+    background-color: var(--background);
+    
 }
 
 h1, h2{
