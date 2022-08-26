@@ -25,9 +25,13 @@ body{
     
 }
 
-h1, h2{
+h1, h2, h3{
     color: var(--accent-color);
     font-family: var(--accent-font);
+
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
 }
 
 .img-round{
@@ -77,3 +81,57 @@ a:hover{
 p.solid{
     border-style: solid;
 }
+
+.gallery{
+    display: flex;
+
+    width: 70%;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.gallery article{
+    width: 39vh;
+    padding: 0.5em;
+}
+
+.gallery article:hover{
+    opacity: 0.5;
+}
+
+.gallery article img{
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 40vh;
+
+    padding: 0%;
+
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 100%;
+    margin: -10%;
+}
+
+nav{
+    width: 100%;
+
+    border-bottom: 1px solid var(--accent-color);
+
+    font-size: 1.1em;
+    font-weight: bold;
+
+}
+
+nav a{
+    padding: 0.5em;
+}
+
